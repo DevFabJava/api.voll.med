@@ -13,6 +13,7 @@ public class MedicoController {
 
     @PostMapping
     public void cadstrar(@RequestBody DadosCadastroMedico dados) {
+
         System.out.println(dados);
     }
 }
