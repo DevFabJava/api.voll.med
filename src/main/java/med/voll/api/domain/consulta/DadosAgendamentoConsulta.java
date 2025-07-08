@@ -10,6 +10,9 @@ public record DadosAgendamentoConsulta(
         Long idMedico,
 
         @NotNull
+        Long idPaciente,
+
+        @NotNull
         @Future
         LocalDateTime data,
         Especialidade especialidade

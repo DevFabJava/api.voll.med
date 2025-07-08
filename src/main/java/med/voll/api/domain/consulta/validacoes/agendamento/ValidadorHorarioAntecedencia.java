@@ -14,7 +14,7 @@ public class ValidadorHorarioAntecedencia {
         var diferencaEmMinutos = Duration.between(agora,dataConsulta).toMinutes();
 
         if (diferencaEmMinutos < 30) {
-            throw new ValidacaoException("Consulta deve se agendada com antecedência mínima de 30 minutos.")
+            throw new ValidacaoException("Consulta deve se agendada com antecedência mínima de 30 minutos.");
         }
     }
 }
